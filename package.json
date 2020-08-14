@@ -1,14 +1,14 @@
 {
   "name": "react-express-workspaces-heroku",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample project to show how to deploy a React + Express monorepository project structured with Yarn Workspaces on Heroku",
   "main": "index.js",
   "scripts": {
         "build": "yarn workspace client build",
         "start": "yarn workspace server start"
    },
   "author": "Christian Toscano",
-  "license": "ISC",
+  "license":  "Apache-2.0",
   "private": true,
   "workspaces": [
         "server",

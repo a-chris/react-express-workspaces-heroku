@@ -1,26 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h3>This application has been built using React and Express</h3>
+        <p>The source code is available on <a href='https://github.com/a-chris/react-express-workspaces-heroku'>GitHub</a></p>
+        <p>for more information you can refer to Medium article</p>
+        <p style={{width: '100%', textAlign: 'right'}}>Christian Toscano</p>
     </div>
   );
 }
-
-export default App;
